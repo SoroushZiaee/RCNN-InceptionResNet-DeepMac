@@ -6,25 +6,27 @@ In this repository, I have tried to make a pipeline using the mask_rcnn_inceptio
 
 In this project we need to use tensorflow version 2.2.0 so, first downgrade our tensorflow to specified version with the following command
 
-'''
+```
 pip install -U --pre -q tensorflow=="2.2.0"
-'''
+```
 
 Next install the following requirements: python
 
-'''
+```
+
 pip install -q tensorflow-object-detection-api
 pip install -q imageio-ffmpeg
-'''
+```
 
 Afterward, We need to clone the tensorflow model for our furture analysis with following scripts:
 
-'''
+```
+
 cd models/research/
 protoc object_detection/protos/\*.proto --python_out=.
 cp object_detection/packages/tf2/setup.py .
 python -m pip install .
-'''
+```
 
 ### Results
 
