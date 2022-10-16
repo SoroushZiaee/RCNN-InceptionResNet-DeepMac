@@ -20,7 +20,7 @@ def run(input_data: str, output_data: str):
 
     detector = prepare_RCNN_model(path)
 
-    path = "models/research/object_detection/test_data/deepmac_1024x1024_coco17/saved_model"
+    path = "/content/models/research/object_detection/test_data/deepmac_1024x1024_coco17/saved_model"
 
     prediction_function = prepare_model(path)
 
