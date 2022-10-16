@@ -2,7 +2,7 @@
 
 Suppose we are developing a new labeling tool to annotate masks in a video. Labeling all the frames of a video with great accuracy takes a lot of time and cost. In order to make the annotation process faster, we need to use semi-automated or automated labeling methods.
 
-In this repository, I have tried to make a pipeline using the mask_rcnn_inception_resnet_v2 combined with DEEPMAC pretrained model to detect and mask vehicles on the highway. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16xs9JlrmsqHGnEosvAAjNWC2_pr3THe9?usp=sharing]
+In this repository, I have tried to make a pipeline using the mask_rcnn_inception_resnet_v2 combined with DEEPMAC pretrained model to detect and mask vehicles on the highway. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
 
 In this project we need to use tensorflow version 2.2.0 so, first downgrade our tensorflow to specified version with the following command
 
