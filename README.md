@@ -29,6 +29,15 @@ cp object_detection/packages/tf2/setup.py .
 python -m pip install .
 ```
 
+Now, We have to download the specify model
+
+```
+wget http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz
+cp deepmac_1024x1024_coco17.tar.gz models/research/object_detection/test_data/
+tar -xzf models/research/object_detection/test_data/deepmac_1024x1024_coco17.tar.gz
+mv deepmac_1024x1024_coco17 models/research/object_detection/test_data/
+```
+
 ### Results
 
 - main video
