@@ -21,6 +21,7 @@ pip install -q imageio-ffmpeg
 Afterward, We need to clone the tensorflow model for our furture analysis with following scripts:
 
 ```
+git clone --depth 1 https://github.com/tensorflow/models
 
 cd models/research/
 protoc object_detection/protos/\*.proto --python_out=.
